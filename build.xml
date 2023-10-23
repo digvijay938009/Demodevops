@@ -1,6 +1,6 @@
 <project name="Shivasoft Demo Org" default="deployCode" basedir="." xmlns:sf="antlib:com.salesforce">
 	<!-- Get all settings like Server Path, username and passwords from "build.properties" file -->
-    <property file="build.properties"/>
+    <property file='build.properties'/>
     <property environment="env"/>
 	<!-- Sequence 1 - Get All information from Source, Retrieve the contents into Src directory -->
 	<target name="SFDCFetch">
